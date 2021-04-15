@@ -1,0 +1,35 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  @media #{$med} {
+    padding: 10px 30px;
+  }
+}
+.default {
+  background-color: $color-link;
+}
+
+.error {
+  background-color: #e4757a;
+}
+
+.info {
+  background-color: $color-accent;
+}
+
+.success {
+  background-color: $color-background;
+}
+
+.warning {
+  background-color: $color-theme;
+}

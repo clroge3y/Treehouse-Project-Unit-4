@@ -1,0 +1,12 @@
+/* ============================================= */
+/*              Containers                       */
+/* ============================================= */
+.container {
+  padding: 0 10px;
+  @media #{$med} {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
