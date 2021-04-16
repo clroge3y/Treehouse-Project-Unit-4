@@ -3,18 +3,4 @@
 /* ============================================= */
 
 // Utilities
-@import '../utilities/variables',
-        '../utilities/mixins',
-        '../utilities/helpers',
-        '../utilities/functions';
-
-// Base styles
-@import '../base/normalize',
-        '../base/typography';
-
-// Component styles
-@import '../components/buttons',
-        '../components/forms',
-        '../components/grid',
-        '../components/nav',
-        '../components/images';
+@import 'containers';

@@ -1,18 +1,9 @@
 /* ============================================= */
-/*                   Imports                     */
+/*                   Components                  */
 /* ============================================= */
 
-// Utilities
-@import '../utilities/variables',
-        '../utilities/mixins',
-        '../utilities/helpers',
-        '../utilities/functions';
-
-// Base styles
-@import '../base/normalize',
-        '../base/typography';
-// Layout styles
-@import '../layout/card',
-        '../layout/containers',
-        '../layout/footer',
-        '../layout/header';
+@import 'buttons',
+        'forms',
+        'nav',
+        'images',
+        'grid';

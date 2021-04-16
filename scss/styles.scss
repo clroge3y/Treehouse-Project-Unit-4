@@ -3,19 +3,13 @@
 /* ============================================= */
 
 // Utilities
-@import 'utilities/variables',
-        'utilities/helpers';
+@import 'utilities/index';
 
 // Base styles
-@import 'base/normalize',
-        'base/typography';
+@import 'base/index';
 
 // Layout styles
-@import 'layout/containers';
+@import 'layout/index';
 
 // Component styles
-@import 'components/buttons',
-        'components/forms',
-        'components/grid',
-        'components/nav',
-        'components/images';
+@import 'components/index';
