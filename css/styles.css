@@ -389,24 +389,6 @@ sup {
 }
 
 /* ============================================= */
-/*                   Imports                     */
-/* ============================================= */
-/* ============================================= */
-/*              Containers                       */
-/* ============================================= */
-.container {
-  padding: 0 10px;
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* ============================================= */
 /*                   Components                  */
 /* ============================================= */
 /* ============================================= */
@@ -421,37 +403,35 @@ sup {
   text-transform: uppercase;
   border-radius: 5px;
 }
+.btn.default {
+  background-color: #51ddfc;
+}
+.btn.error {
+  background-color: #e4757a;
+}
+.btn.info {
+  background-color: #927bc1;
+}
+.btn.success {
+  background-color: #63cc82;
+}
+.btn.warning {
+  background-color: #fd7856;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #83e9d1;
+}
 @media (min-width: 768px) {
   .btn {
     padding: 10px 30px;
   }
 }
-
 @media (min-width: 768px) {
-  .btn + .btn {
-    margin-left: 10px;
-  }
-}
-@media (min-width: 768px) {
-  .btn + .btn .logo {
+  .btn .logo {
     margin-left: initial;
     margin-right: initial;
   }
-}
-.btn + .btn .default {
-  background-color: #51ddfc;
-}
-.btn + .btn .error {
-  background-color: #e4757a;
-}
-.btn + .btn .info {
-  background-color: #927bc1;
-}
-.btn + .btn .success {
-  background-color: #63cc82;
-}
-.btn + .btn .warning {
-  background-color: #fd7856;
 }
 
 /* ============================================= */
@@ -525,6 +505,9 @@ sup {
   max-width: 100%;
   max-height: 100%;
 }
+.img-avatar:hover {
+  transform: rotate(-5deg) scale(1.1) translateY(-20px);
+}
 
 .img-frame {
   display: block;
@@ -535,11 +518,33 @@ sup {
   padding: 13px;
   border: 1px solid #ccc;
 }
+.img-frame:hover {
+  transform: rotate(-5deg) scale(1.1) translateY(-20px);
+}
 
 .img-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+}
+.img-logo:hover {
+  transform: rotate(-5deg) scale(1.1) translateY(-20px);
+}
+
+/* ============================================= */
+/*              Containers                       */
+/* ============================================= */
+.container {
+  padding: 0 10px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* ============================================= */
@@ -584,6 +589,11 @@ sup {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.theme:hover {
+  color: #fff;
+  background-color: #83e9d1;
 }
 
 .theme.col-1 {

@@ -1,0 +1,14 @@
+@mixin hover {
+    color: $white;
+    background-color: $color-primary-light;
+  }
+
+@mixin image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  &:hover {
+    transform: rotate(-5deg) scale(1.1) translateY(-20px);
+  }
+}

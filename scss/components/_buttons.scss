@@ -10,40 +10,32 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  &.default {
+    background-color: $color-link;
+  }
+  &.error {
+    background-color: #e4757a;
+  }
+  &.info {
+    background-color: $color-accent;
+  }
+  &.success {
+    background-color: $color-background;
+  }
+  &.warning {
+    background-color: $color-theme;
+    }
+    &:hover {
+      @include hover;
+    }
   @media #{$med} {
     padding: 10px 30px;
-  }
-}
-
-.btn + .btn {
-  @media #{$med} {
-  margin-left: 10px;
   }
 
 .logo {
   @media #{$med} {
   margin-left: initial;
   margin-right: initial;
-  }
-}
-
-.default {
-  background-color: $color-link;
-}
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: $color-accent;
-}
-
-.success {
-  background-color: $color-background;
-}
-
-.warning {
-  background-color: $color-theme;
+    }
   }
 }

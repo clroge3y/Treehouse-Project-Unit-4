@@ -37,6 +37,12 @@
   }
 }
 
+.theme {
+  &:hover {
+    @include hover;
+  }
+}
+
 .theme.col-1 {
   background-color: $color-accent;
   @media #{$med} {
